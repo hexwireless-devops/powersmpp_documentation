@@ -1,0 +1,28 @@
+site_name: Hexwireless Documentation
+site_url: http://localhost:80
+theme:
+  features:
+    - navigation.expand
+  name: material 
+  font:
+    text: Merriweather
+    code: Red Hat Mono
+  logo: assets/logo.png
+  favicon: assets/pslogo.png
+  language: en 
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: blue
+      accent: deep purple
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: grey
+      accent: deep orange
+
